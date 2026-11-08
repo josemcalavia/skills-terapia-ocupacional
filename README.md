@@ -2,7 +2,7 @@
 
 [![Licencia: CC BY-NC-SA 4.0](https://img.shields.io/badge/Licencia-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es)
 
-Nueve skills para Claude dirigidas a terapeutas ocupacionales, docentes y estudiantes. Cada una es independiente: instala solo las que necesites. Versión 2.0.
+Diez skills para Claude dirigidas a terapeutas ocupacionales, docentes y estudiantes. Cada una es independiente: instala solo las que necesites. Versión 2.0.
 
 | Skill | Para qué sirve | Descarga |
 |---|---|---|
@@ -15,8 +15,11 @@ Nueve skills para Claude dirigidas a terapeutas ocupacionales, docentes y estudi
 | Tutor de razonamiento clínico | Practica casos clínicos con preguntas socráticas y retroalimentación final, ajustado a tu nivel | [`to-tutor-razonamiento-clinico.skill`](descarga/to-tutor-razonamiento-clinico.skill) |
 | Detector de barreras arquitectónicas | Analiza fotos de un espacio y detecta barreras según el CTE y el perfil de movilidad que elijas | [`detector-barreras-arquitectonicas.skill`](descarga/detector-barreras-arquitectonicas.skill) |
 | Generador de exámenes y rúbricas | Convierte apuntes en un examen con solucionario y rúbrica, con el formato que define cada docente | [`generador-examenes-rubricas.skill`](descarga/generador-examenes-rubricas.skill) |
+| Diseñador de productos de apoyo (3D) | Diseña productos de apoyo nuevos para imprimir en 3D con el método de la colección de Accessibilitas (Fundación ONCE): conversación, conceptos, modelo paramétrico en OpenSCAD, STL/3MF e instrucciones en PDF. Aprende de las decisiones de quien lo guía | [`disenador-productos-apoyo.skill`](descarga/disenador-productos-apoyo.skill) |
 
 Para buscar productos de apoyo, existe el plugin [Asesor de productos de apoyo · Catálogo Ceapat](https://github.com/josemcalavia/ceapat-asistente).
+
+**Diseñador de productos de apoyo.** Necesita [OpenSCAD](https://openscad.org/downloads.html) (mejor una versión *development snapshot*) y Python 3 con `reportlab`, y funciona completo en Claude Code o en la aplicación de escritorio, donde puede ejecutar programas en tu ordenador. En la web puede llevar la conversación y escribir el diseño, pero tendrás que exportar el STL tú en OpenSCAD. Opcionalmente descarga la colección de Accessibilitas (CC BY-NC-SA 4.0) como referencia; no la incluye. Tus aprendizajes y diseños se guardan en tu carpeta de trabajo.
 
 ## Cómo funcionan
 
@@ -68,6 +71,8 @@ Reinicia Claude Code para que las detecte.
 | `skills/to-marco-aota-2020/references/` | Síntesis propia del Marco de la AOTA 2020 (OTPF-4) |
 | `skills/to-moho/references/` | Síntesis propia del MOHO: fundamentos e instrumentos |
 | `skills/to-informe-perfil-sensorial-2/references/` | Síntesis propia del Perfil Sensorial-2 y plantilla del informe |
+| `skills/disenador-productos-apoyo/scripts/` | Fabricación (STL/3MF y comprobaciones), PDF de instrucciones, memoria de aprendizajes y descarga de la colección de referencia |
+| `skills/disenador-productos-apoyo/lib/` | Librería OpenSCAD común: holguras, tornillería M3, cola de milano, mordaza a tubo |
 | `descarga/` | Paquetes `.skill` listos para subir a Claude |
 
 ## Autoría
