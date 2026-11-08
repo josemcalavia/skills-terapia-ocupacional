@@ -69,10 +69,10 @@ Fecha: AAAA-MM-DD
 
 Guárdalo según el entorno, en este orden (usa la primera opción que encaje):
 
-1. **Hay una carpeta de trabajo** (Claude Code, Cowork): guarda `preferencias-<nombre-de-la-skill>.md` en esa carpeta y dilo. Si la persona prefiere otro sitio, muévelo.
-2. **Puedes crear archivos descargables** (Claude en la web o en la aplicación): crea el archivo y recomienda subirlo a los archivos del proyecto de Claude donde se vaya a usar la skill. Así se aplicará solo la próxima vez.
+1. **Hay una carpeta de trabajo** (por ejemplo, Claude Code, Cowork o Codex): guarda `preferencias-<nombre-de-la-skill>.md` en esa carpeta y dilo. Si la persona prefiere otro sitio, muévelo.
+2. **Puedes crear archivos descargables** (Claude o ChatGPT en la web o en la aplicación): crea el archivo y recomienda subirlo a los archivos del proyecto donde se vaya a usar la skill (un proyecto de Claude, o un proyecto o un GPT de ChatGPT). Así se aplicará solo la próxima vez.
 3. **Hay memoria disponible**: ofrece guardarlas también allí.
-4. **No hay nada de lo anterior**: pide que copie el bloque en las instrucciones del proyecto o lo pegue al empezar.
+4. **No hay nada de lo anterior**: pide que copie el bloque en las instrucciones del proyecto o del GPT, o que lo pegue al empezar.
 
 Las preferencias nunca contienen datos de pacientes, alumnado ni familias.
 

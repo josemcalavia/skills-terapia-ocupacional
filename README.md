@@ -2,7 +2,7 @@
 
 [![Licencia: CC BY-NC-SA 4.0](https://img.shields.io/badge/Licencia-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es)
 
-Diez skills para Claude dirigidas a terapeutas ocupacionales, docentes y estudiantes. Cada una es independiente: instala solo las que necesites. Versión 2.0.
+Diez skills para Claude y ChatGPT dirigidas a terapeutas ocupacionales, docentes y estudiantes. Cada una es independiente: instala solo las que necesites. Versión 2.0.
 
 | Skill | Para qué sirve | Descarga |
 |---|---|---|
@@ -25,22 +25,28 @@ Para buscar productos de apoyo, existe el plugin [Asesor de productos de apoyo �
 
 1. **Primer uso.** La primera vez, la skill explica qué hace, cómo funciona y qué datos necesita. Después te pregunta si quieres adaptarla: tu ámbito, tu nivel, tus escalas o tu formato de informe o de examen. Si tienes prisa, responde «valores por defecto» y empieza ya.
 2. **Estética de los documentos.** Por defecto, los documentos salen con un estilo neutro, sin logotipos ni marcas. Puedes elegir el formato (chat, Word, PDF, Markdown, HTML), los colores, la tipografía, tu propio logotipo, la cabecera y el pie, o usar tu plantilla .docx.
-3. **Tus preferencias.** La skill te entrega un archivo `preferencias-<skill>.md`. Súbelo a los archivos de tu proyecto de Claude, o guárdalo en tu carpeta de trabajo, y se aplicará solo las próximas veces.
+3. **Tus preferencias.** La skill te entrega un archivo `preferencias-<skill>.md`. Súbelo a los archivos de tu proyecto de Claude o ChatGPT, o guárdalo en tu carpeta de trabajo, y se aplicará solo las próximas veces.
 4. **Cambiarlas.** Di «cambiar preferencias» cuando quieras modificar algo.
 
 ## Qué necesitas
 
-- Una cuenta de Claude con skills disponibles, en la web, en la aplicación de escritorio o en Claude Code.
-- Para generar documentos Word o PDF, Claude necesita tener activada la creación de archivos (ejecución de código).
+- **Claude**: cualquier plan, también el gratuito, en la web, en la aplicación de escritorio o en Claude Code (este último, con un plan de pago). Activa la ejecución de código y la creación de archivos en **Ajustes › Capacidades**.
+- **ChatGPT**: la subida de skills está disponible en los planes Business, Enterprise y Edu. En los demás planes, puedes pegar las instrucciones del `SKILL.md` en un proyecto o en un GPT.
 
 ## Instalación
 
 ### En Claude (web o aplicación de escritorio)
 
 1. Descarga el archivo `.skill` que quieras de la carpeta [`descarga/`](descarga).
-2. En Claude, ve a **Ajustes**, **Capacidades**, sección de skills.
-3. Pulsa para subir una skill y elige el archivo `.skill`.
+2. En **Ajustes › Capacidades**, activa la ejecución de código y la creación de archivos.
+3. Ve a **Personalizar › Skills**, pulsa para subir una skill y elige el archivo `.skill`.
 4. Comprueba que aparece activada. Repite con cada skill que quieras usar.
+
+### En ChatGPT
+
+1. Descarga el archivo `.skill` que quieras de la carpeta [`descarga/`](descarga). Si ChatGPT no acepta la extensión `.skill`, cámbiala por `.zip` (es el mismo paquete).
+2. Ve a **Plugins › Skills › Crear › Subir desde el ordenador** y elige el archivo.
+3. Si tu plan no permite subir skills, crea un proyecto o un GPT y pega en sus instrucciones el contenido del `SKILL.md` de la carpeta [`skills/`](skills); añade como archivos los documentos de su carpeta `references/`.
 
 ### En Claude Code
 
@@ -73,7 +79,7 @@ Reinicia Claude Code para que las detecte.
 | `skills/to-informe-perfil-sensorial-2/references/` | Síntesis propia del Perfil Sensorial-2 y plantilla del informe |
 | `skills/disenador-productos-apoyo/scripts/` | Fabricación (STL/3MF y comprobaciones), PDF de instrucciones, memoria de aprendizajes y descarga de la colección de referencia |
 | `skills/disenador-productos-apoyo/lib/` | Librería OpenSCAD común: holguras, tornillería M3, cola de milano, mordaza a tubo |
-| `descarga/` | Paquetes `.skill` listos para subir a Claude |
+| `descarga/` | Paquetes `.skill` listos para subir a Claude o ChatGPT |
 
 ## Autoría
 
