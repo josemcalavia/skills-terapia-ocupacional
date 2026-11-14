@@ -71,7 +71,17 @@ Impacto del perfil sensorial en las áreas funcionales, con el mismo formato:
 - Patrones sensoriales predominantes.
 - Relevancia para el desempeño ocupacional: juego, actividades de la vida diaria, participación escolar, descanso.
 
-## 6. Recomendaciones
+## 6. Objetivos de intervención
+
+Se incluye salvo que las preferencias digan «no incluir». Reglas de redacción y modos (sugeridos o trabajados en conjunto) en el `SKILL.md`, apartado «Objetivos vinculados a ámbitos funcionales». En un informe solo para la familia se titula «Lo que queremos conseguir».
+
+| Ámbito | Objetivo | Patrón que lo sustenta | Tipo de intervención | Cómo se valorará |
+|---|---|---|---|---|
+| [AVD / descanso y sueño / educación / juego y ocio / participación social] | [qué hará, en qué actividad y contexto, con qué apoyo, criterio observable y plazo] | [cuadrante o sección] | [establecer o restaurar / adaptar o modificar / alterar / prevenir / crear] | [observación, registro, GAS, COPM] |
+
+## 7. Recomendaciones
+
+Cada estrategia debe apoyar alguno de los objetivos del apartado 6.
 
 Organizadas según las preferencias: en un solo bloque (generales), separadas para casa y escuela (por defecto) o para casa, aula y recreo.
 
@@ -80,11 +90,11 @@ Organizadas según las preferencias: en un solo bloque (generales), separadas pa
 - Intervenciones directas sugeridas desde la Terapia Ocupacional (en un informe solo para la familia, en lenguaje sencillo y como «próximos pasos»).
 - Recursos útiles.
 
-## 7. Conclusión
+## 8. Conclusión
 
 - Resumen breve del perfil.
 - Relevancia clínica.
-- Propuesta de próximas actuaciones o seguimiento.
+- Propuesta de próximas actuaciones o seguimiento, con el plazo de revisión de los objetivos.
 
 ## Firma
 

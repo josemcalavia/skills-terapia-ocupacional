@@ -8,7 +8,7 @@ Diez skills para Claude y ChatGPT dirigidas a terapeutas ocupacionales, docentes
 |---|---|---|
 | Búsqueda de evidencia en TO | Acota la pregunta (PICO, PICo, SPIDER) y entrega tres estrategias de búsqueda por base de datos, con el registro de la búsqueda | [`to-busqueda-evidencia.skill`](descarga/to-busqueda-evidencia.skill) |
 | Informe clínico de TO | Convierte notas clínicas en un informe con la terminología de la AOTA 2020 y de la CIF, con códigos CIF opcionales | [`to-informe-clinico.skill`](descarga/to-informe-clinico.skill) |
-| Informe del Perfil Sensorial-2 | Redacta el informe del PS-2 (Dunn) a partir de las puntuaciones, con una plantilla adaptable | [`to-informe-perfil-sensorial-2.skill`](descarga/to-informe-perfil-sensorial-2.skill) |
+| Informe del Perfil Sensorial-2 | Redacta el informe del PS-2 (Dunn) a partir de las puntuaciones, con objetivos de intervención vinculados a ámbitos ocupacionales y una plantilla adaptable | [`to-informe-perfil-sensorial-2.skill`](descarga/to-informe-perfil-sensorial-2.skill) |
 | Escalas de evaluación en TO | Ayuda a elegir, administrar, puntuar e interpretar PASS, COPM, OSA, FIM+FAM, DASH, Barthel, Lawton y otras | [`to-escalas-evaluacion.skill`](descarga/to-escalas-evaluacion.skill) |
 | Marco de Trabajo de la AOTA (2020) | Resuelve dudas y analiza casos con el dominio y el proceso del OTPF-4, y los relaciona con la CIF | [`to-marco-aota-2020.skill`](descarga/to-marco-aota-2020.skill) |
 | Modelo de la Ocupación Humana (MOHO) | Analiza casos desde el MOHO y recomienda sus instrumentos de evaluación | [`to-moho.skill`](descarga/to-moho.skill) |
